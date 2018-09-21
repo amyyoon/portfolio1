@@ -1,0 +1,101 @@
+.testimonialBox{position: relative;
+margin: auto; padding-top: 100px;
+box-sizing: border-box;
+width: 1200px;height: 900px;
+background-color:#fff;
+overflow:hidden;}
+.testimonialBox>h3{
+margin-top: 30px;
+font-size: 2rem;
+font-weight: bold; color:#333;
+text-align: center;
+text-transform: uppercase;}
+.long{width: 100px; height: 10px;
+margin: auto;background-color: #274}
+
+.indicator{position: absolute;
+bottom:150px; left:50%; margin-left: -50px;
+width: 70px;height: 10px;}
+.indicator>li{float:left;
+width: 10px;height: 100%;
+margin-right: 20px;}
+.indicator>li:last-child{margin-right: 0;}
+.indicator>li>a{display: block;
+width: 100%;height: 100%;
+border:3px solid #000;
+background-color: transparent; border-radius: 100%;}
+.indicator>li>a.active{
+background-color: #000;
+}
+
+.testimonialWrap{position: absolute;
+padding-top: 150px;
+box-sizing: border-box;
+width: 300%;height: 400px;}
+.testimonialWrap>li{float:left;
+width: 33.3333333%; height: 100%;}
+
+
+.testimonialWrap>li>ol{width: 100%;height: 100%;}
+.testimonialWrap>li>ol>li{float:left;
+width: 50%; height: 100%;}
+
+.testimonialWrap>li>ol>li:nth-of-type(1)
+{width: 50%;height: 100%;}
+.testimonialWrap>li>ol>li:nth-of-type(1)>a{
+display: block;
+width: 100%;height: 100%;}
+
+.testimonialWrap>li>ol>li:nth-of-type(1)>a>p
+{font-size:1rem; color:#333; position:relative;
+padding:100px 50px; box-sizing: border-box;
+width: 100%;height: 100%;margin: auto;}
+
+
+.testimonialWrap>li>ol>li:nth-of-type(1)>a>p>
+span:nth-of-type(1){
+font-size: 2rem; position: absolute;
+top:30px;}
+.testimonialWrap>li>ol>li:nth-of-type(1)>a>p>
+span:nth-of-type(2){
+font-size: 2rem; position: absolute;
+bottom:-20px; right:10px;
+}
+
+.testimonialWrap>li>ol>li:nth-of-type(2){
+width: 50%;height: 100%; float:right;}
+
+
+
+.testimonial1{
+	margin: auto;
+	width: 300px;height: 300px;
+	border-radius: 100%;
+	background-image: url('../../img/test1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.testimonial2{
+	margin: auto;
+	width: 300px;height: 300px;
+	border-radius: 100%;
+	background-image: url('../../img/launching.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.testimonial3{
+	margin: auto;
+	width: 300px;height: 300px;
+	border-radius: 100%;
+	background-image: url('../../img/steam.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.testimonialBox>ul>li>a{display: block;
+width: 100%;height: 100%;}

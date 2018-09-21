@@ -1,0 +1,146 @@
+.portBox{opacity: 0; transition: all 2000ms ease;
+position: relative;
+padding-top: 150px; box-sizing: border-box;
+margin: auto;
+width: 1200px;height: 1200px;}
+.portBox.show{opacity: 1}
+.long{width: 100px; height: 10px;
+margin: auto;background-color: #274}
+.portBox>h2{margin-top: 30px;
+padding-bottom: 50px;box-sizing: border-box;
+font-size: 2rem;
+font-weight: bold; color:#333;
+text-align: center;
+text-transform: uppercase;}
+.port{width: 400px;height: 100px;margin: auto;}
+.port>li{float:left; width: 45%; height: 50%;
+font-size: 1rem; line-height: 50px;
+border-top:0px solid #274;}
+.port>li.active{font-weight: bold; 
+background-color: #274; color:#fff;
+font-size: 1.5rem; line-height: 50px}
+.port>li>a{width: 100%;height: 100%;display: block;
+text-align:center;color:#fff;
+transition:300px 1ms ease; text-transform: uppercase;}
+.port>li>a:focus,
+.port>li>a:hover{}
+
+.portText{width: 100%;height: 700px;margin: auto;}
+.portText>ul{display: none;}
+.portText>ul.active{display: block;}
+.portText>ul>li>a{display: block;
+width: 100%;height: 100%;
+transform: perspective(1px) translateZ(0);}
+.web>li>a:before{
+line-height:700px;
+text-align:center;
+text-transform: uppercase;
+font-size: 1.3rem;
+display: block;
+position: absolute;
+width: 100%;height: 100%;
+z-index: -1;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background: rgba(0,0,0,0.8);
+transform:scaleY(0);
+transform-origin:50% 0;
+transition-property: transform;
+transition-duration:0.6s;
+transition-timing-function:ease-out;
+}
+
+.web>li:nth-of-type(1)>a:before{content:"portfolio #1 Natracare";}
+.web>li:nth-of-type(2)>a:before{content:"portfolio #2 ZBrush Main Page";}
+.web>li:nth-of-type(3)>a:before{content:"portfolio #3 ZBursh Sub Page";}
+
+
+.marketing>li>a:before{
+line-height:300px;
+text-align:center;
+text-transform: uppercase;
+font-size: 1.3rem;
+display: block;
+position: absolute;
+width: 100%;height: 100%;
+z-index: -1;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background: rgba(0,0,0,0.8);
+transform:scaleY(0);
+transform-origin:50% 0;
+transition-property: transform;
+transition-duration:0.6s;
+transition-timing-function:ease-out;
+}
+
+.marketing>li:nth-of-type(1)>a:before{content:"WEB ANALYSIS";}
+.marketing>li:nth-of-type(2)>a:before{content:"UI/UX DESIGN";}
+.marketing>li:nth-of-type(3)>a:before{content:"B2B MARKETING";}
+.marketing>li:nth-of-type(4)>a:before{content:"AFFILIATE MARKETING";}
+.marketing>li:nth-of-type(5)>a:before{content:"PRODUCT MANIGING";}
+.marketing>li:nth-of-type(6)>a:before{content:"B2C MARKETING";}
+
+.portText>ul>li>a{color:#fff;}
+.portText>ul>li>a:hover:before,
+.portText>ul>li>a:focus:before{
+transform:scaleY(1);
+}
+
+.web{margin: auto;width: 100%; height: 100%;
+overflow:hidden;}
+.web>li{float:left; width:30%;height: 100%;
+margin-right: 3%; background-color: #faa}
+.web>li:nth-of-type(1){
+background-image: url('../../img/natra.jpg');
+background-repeat: no-repeat;
+background-position: 0 0;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.web>li:nth-of-type(3){
+background-image: url('../../img/zbrush.jpg');
+background-repeat: no-repeat;
+background-position: 0 0;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.web>li:nth-of-type(2){
+background-image: url('../../img/zbrush_gallery.jpg');
+background-repeat: no-repeat;
+background-position: 0 0;
+-webkit-background-size: cover;
+background-size: cover;
+}
+
+.marketing{margin: auto;width: 100%; height: 100%;}
+.marketing>li{float:left; width: 30%; height: 48.5%;
+margin-right: 3%; margin-bottom: 3%;
+background-color: #aca;
+background-repeat: no-repeat;
+background-position: 0 0;
+-webkit-background-size: cover;
+background-size: cover;}
+.marketing>li:nth-of-type(3n){margin-right: 0;}
+.marketing>li:nth-of-type(1){
+background-image: url('../../img/webanalysis.jpg');}
+.marketing>li:nth-of-type(2){
+background-image: url('../../img/mdweb.jpg');}
+.marketing>li:nth-of-type(3){
+background-image: url('../../img/mdinsta.jpg');}
+.marketing>li:nth-of-type(4){
+background-image: url('../../img/steam.jpg');}
+.marketing>li:nth-of-type(5){
+background-image: url('../../img/launching.jpg');
+}
+.marketing>li:nth-of-type(6){
+background-position: center;
+background-image: url('../../img/siggraph.jpg');}
+
+.marketing>li>a{width: 100%;height: 100%; display: block;}

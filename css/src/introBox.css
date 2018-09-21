@@ -1,0 +1,45 @@
+.introBox{position: relative;
+width: 100%;
+background-image:url('../../img/thumbs.jpg');
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;}
+.introBox>p{line-height: 900px;
+text-align: center;color:#000;}
+.scroll{position: absolute;
+bottom:50px; right:50%; margin-right: -15px;
+width: 30px; height: 30px;
+animation:mouse 1000ms infinite ease alternate;}
+@keyframes mouse {
+  0% {transform:translateY(0);}
+  100% {transform:translateY(8px);}
+}            
+
+.scroll>a{display: block;
+width: 100%;height: 100%;font-size:3rem; color:#000;}
+.scroll>i{margin: auto;}
+
+
+@media screen and (min-width:1366px) {
+.introBox{height: 900px;}
+.scroll>a{font-size:3rem;}
+.introBox>p{font-size: 3rem;}
+}
+@media screen and (min-width:1200px) and (max-width: 1365px) {
+.introBox{height:900px;}
+.scroll>a{font-size:3rem;}
+.introBox>p{font-size: 3rem;}
+}
+@media screen and (min-width:768px) and (max-width: 1200px){
+.introBox{height:600px;}
+.introBox>p{line-height: 600px;}
+.scroll>a{font-size:2rem;}
+.introBox>p{font-size: 2rem;}
+}
+@media screen and (min-width:360px) and (max-width: 767px){
+.introBox{height:600px;}
+.introBox>p{line-height: 600px;}
+.scroll>a{font-size:2rem;}
+.introBox>p{font-size: 1.5rem;}
+}

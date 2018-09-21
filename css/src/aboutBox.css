@@ -1,0 +1,58 @@
+.aboutBox{margin: auto; 
+padding: 200px 0 50px;box-sizing: border-box;
+width: 1200px;height: 900px;
+background-color: #fff}
+.long{margin-top: 30px;width: 100px; height: 10px;
+margin: auto;background-color: #274}
+.pic{float:right; width: 50%; height: 80%;
+background-image:url('../../img/siggraph.jpg');
+background-repeat: no-repeat;
+background-position: center;
+-webkit-background-size: cover;
+background-size: cover;
+opacity: 0; transition: all 2000ms ease;}
+.pic.show{opacity: 1}
+.aboutText{float:left;
+box-sizing: border-box; width: 50%;height: 100%;
+opacity: 0; transition: all 2000ms ease;}
+.aboutText.show{opacity: 1;}
+
+.aboutTitle{margin-top: 30px;
+text-align-last:center;
+font-size: 2rem;
+font-weight: bold;}
+.aboutD{text-align:justify;
+padding-top: 60px;
+box-sizing: border-box;
+width: 100%; height: 70%;
+font-size: 1.2rem; color:#000;}
+
+
+@media screen and (min-width:1366px) {
+.aboutBox{width: 1200px;height: 900px;}
+.aboutText{padding:0 60px;}
+}
+@media screen and (min-width:1200px) and (max-width: 1365px) {
+.aboutBox{width: 1200px;height:900px;}
+.aboutText{padding:0 60px;}
+}
+@media screen and (min-width:768px) and (max-width: 1200px){
+.aboutBox{padding: 100px 0 50px; width: 760px;height:600px;}
+.pic{float:right; width: 50%; height: 80%;}
+.aboutText{width: 50%; height:80%; padding:0 60px;}
+.aboutTitle{font-size: 1rem;}
+.aboutD{overflow:hidden; /*text-overflow:ellipsis;*/
+/*white-space:nowrap;*/
+font-size: 0.8rem;}
+
+}
+@media screen and (min-width:360px) and (max-width: 767px){
+.aboutBox{padding: 100px 0 50px;width: 360px;height:900px;}
+.pic{width: 100%; height: 30%;}
+.aboutText{padding-top: 30px;
+box-sizing: border-box;
+width: 100%; height:70%;}
+.aboutTitle{font-size: 1rem;}
+.aboutD{overflow:hidden; font-size: 0.8rem;}
+}
+
