@@ -2,4 +2,4 @@
 ---
 This is my web portfolio. 
 Should have any questions, feel free to contact me via [Email](soleeyaa@gmail.com) <br />
-![Euni's portfolio](/portfolio/img/portfolio.jpg)
+![Euni's portfolio](User/portfolio/img/portfolio.png)
