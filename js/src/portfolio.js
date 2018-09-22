@@ -2,27 +2,7 @@
 
 (function($){
 
-  // $('body').on('mouseover',function(){
-    // $('body').css({'cursor':'none'});
-  // });
 
-  // $(document).on('mousemove',function(e){
-  //   console.log(e.originalEvent);
-  //   var mx = e.originalEvent.clientX + 3;
-  //   var my = e.originalEvent.clientY + 3;
-  //   $('.cursor').css({
-  //     'left': mx,
-  //     'top': my,
-  //     'width':'10px',
-  //     'height':'10px',
-  //     'position':'fixed',
-  //     'borderRadius':'100%',
-  //     'zIndex':2000,
-  //     'backgroundColor':'#f00',
-  //     'boxShadow':'2px 2px 2px #333',
-  //     transition:'all 100ms ease'
-  //   });
-  // });
 
   var scroll=$('.scroll');
   scroll.children('a').on('click',function(e){
