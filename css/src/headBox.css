@@ -2,7 +2,7 @@
 z-index: 1000;
 margin: auto;
 width: 100%;height: 50px;
-background-color: #fff;}
+background-color: #003;}
 .headin{padding-top: 10px;box-sizing: border-box;
 margin: auto;width: 1300px;
 height: 100%;}
@@ -20,11 +20,11 @@ width: 100%;height: 100%;}
 .gnb>li{float:left; width: 170px;height: 100%;}
 .gnb>li>a{display: block;
 width: 100%;height: 90%;
-font-size: 1rem; color:#000;
+font-size: 1rem; color:#fff;
 text-align: center; line-height: 30px;
 transition:all 300ms ease;}
 .gnb>li>a:focus,
-.gnb>li>a:hover{border-top:3px solid #274;}
+.gnb>li>a:hover{border-top:3px solid #fff;}
 
 /*pcfull*/
 @media screen and (min-width:1366px) {
@@ -33,7 +33,7 @@ transition:all 300ms ease;}
 z-index: 1000;
 margin: auto;
 width: 100%;height: 50px;
-background-color: #fff}
+background-color: #003}
 .headin{padding-top: 10px;box-sizing: border-box;
 margin: auto;width: 1300px;
 height: 100%;}
@@ -51,11 +51,11 @@ width: 100%;height: 100%;}
 .gnb>li{float:left; width: 170px;height: 100%;}
 .gnb>li>a{display: block;
 width: 100%;height: 90%;
-font-size: 1rem; color:#000;
+font-size: 1rem; color:#fff;
 text-align: center; line-height: 30px;
 transition:all 300ms ease;}
 .gnb>li>a:focus,
-.gnb>li>a:hover{border-top:3px solid #274;}
+.gnb>li>a:hover{border-top:3px solid #fff;}
 
 }
 /*labtop*/
@@ -64,8 +64,7 @@ transition:all 300ms ease;}
 .headBox{position: fixed;
 z-index: 1000;
 margin: auto;
-width: 100%;height: 50px;
-background-color: #fff}
+width: 100%;height: 50px;}
 .headin{padding-top: 10px;box-sizing: border-box;
 margin: auto;width: 1300px;
 height: 100%;}
@@ -83,19 +82,18 @@ width: 100%;height: 100%;}
 .gnb>li{float:left; width: 170px;height: 100%;}
 .gnb>li>a{display: block;
 width: 100%;height: 90%;
-font-size: 1rem; color:#000;
+font-size: 1rem; 
 text-align: center; line-height: 30px;
 transition:all 300ms ease;}
 .gnb>li>a:focus,
-.gnb>li>a:hover{border-top:3px solid #274;}
+.gnb>li>a:hover{border-top:3px solid #fff;}
 }
 
 @media screen and (min-width:360px) and (max-width: 1200px) {
 .headBox{position: fixed;
 z-index: 1000;
 margin: auto;
-width: 100%;height: 50px;
-background-color: #fff}
+width: 100%;height: 50px;}
 .headin{padding-top: 10px;box-sizing: border-box;
 margin: auto;width: 480px;
 height: 100%;}
